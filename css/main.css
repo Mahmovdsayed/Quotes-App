@@ -1,0 +1,34 @@
+#main {
+    background-image: url(../images/backimg.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#main .hero {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#main .hero-text {
+    padding: 80px 50px;
+    border-radius: 20px;
+
+}
+
+#main .btn-style {
+    border: none;
+    padding: 15px 90px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: #191919;
+    color: #fff;
+    transition: 400ms all;
+}
+#main .btn-style:hover {
+    background-color: aliceblue;
+    color: #191919;
+    border-inline: #191919 solid 4px;
+}

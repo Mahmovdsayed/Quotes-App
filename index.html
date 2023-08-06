@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes App</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- ========== Start main section ========== -->
+<section id="main" class="d-flex justify-content-center align-items-center">
+  <div class="container">
+    <div class="hero shadow-sm">
+        <div class="hero-text text-center">
+            <h1 class="fw-bold mb-4">Quote of the Day</h1>
+            <p class="fw-medium fs-5 mb-4">Press the button below to recieve a random quote!</p>
+            <button onclick="getQuotes()" class="btn-style">New Quote</button>
+            <hr class="w-75 m-auto my-4">
+            <p id="quote" class="fw-medium fs-2 fst-italic mt-5"></p>
+            <span id="author" class="fw-medium fst-italic fs-5 mt-5"></span>
+        </div>
+    </div>
+  </div>
+</section>
+ <!-- ========== End main section ========== -->
+
+ <!-- ========== Start js files ========== -->
+ <script src="./js/main.js"></script>
+ <!-- ========== End js files ========== -->
+
+</body>
+</html>
